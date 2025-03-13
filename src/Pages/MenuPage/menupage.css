@@ -1,0 +1,35 @@
+.menu-page{
+    color: #ea6d27;
+    text-align: center;
+}
+.menu-page hr {
+    border: 1px solid #ea6d27;
+    width: 80%;
+    top: -20px;
+    margin: 2px auto;
+    display: block;
+}
+.firstpage{
+    background-image: linear-gradient(to right, rgb(245, 236, 225), rgb(239, 230, 219));
+}
+
+.list-food {
+    /* gap: 20px; */
+    width: 98%;  
+    font-size: 15px;
+    color: brown;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #ebe0d7;
+    border-radius: 5px 3px;
+    box-shadow: 7px 7px;
+}
