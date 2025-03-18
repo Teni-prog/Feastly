@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: #F0F0F0; */
+}
 .container {
   display: grid;
   grid-template-columns: 1fr; /* Mobile: One column */
@@ -289,7 +294,7 @@ min-height: 50%;
   text-align: left;
   padding: 10px;
   max-width: 500px;
-  margin-left: 150px;
+  margin-left: 110px;
 }
 
 .chef-section h2 {

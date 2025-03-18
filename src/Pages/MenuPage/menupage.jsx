@@ -373,22 +373,6 @@ export default function Menu() {
               />
             </div>
             <div className="">
-              {/* <div>
-                <div className="flex justify-between ">
-                  <p>
-                    <b>• Unsweetened Iced Tea (6-8 Serv) </b>
-                  </p>
-                  <p>
-                    <b>$12.00 </b>
-                  </p>
-                </div>
-                <div className="flex  ">
-                  <p className="">
-                    Includes sugars, cups, lids and straws. Half Gallon
-                    Container.
-                  </p>
-                </div>
-              </div> */}
               <div>
                 <div className="flex justify-between ">
                   <p>

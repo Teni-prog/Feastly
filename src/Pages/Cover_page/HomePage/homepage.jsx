@@ -43,7 +43,7 @@ export default function Home_page() {
     <>
       <div>
         <div className="flex justify-evenly item-center">
-          <h2>
+          <h2 className="mt-[20px]">
             <b>Feastly</b>
           </h2>
           <div>
@@ -51,7 +51,7 @@ export default function Home_page() {
               <li onClick={() => navigate("/menu")} className="cursor-pointer">
                 <a className="active">Menu</a>
               </li>
-              <li>
+              <li onClick={() => navigate("/order")} className="cursor-pointer">
                 <a href="#news">Order</a>
               </li>
               <li>
@@ -94,7 +94,9 @@ export default function Home_page() {
                 gap: "20px",
               }}
             >
-              <button className="small">Menu</button>
+              <button className="small" onClick={() => navigate("/menu")}>
+                Menu
+              </button>
               <button className="smaller">Book a table</button>
             </div>
             <div
@@ -112,10 +114,10 @@ export default function Home_page() {
             <hr
               className="relative"
               style={{
-                top: "60px",
+                top: "65px",
                 width: "19%",
-                marginRight: "330px",
-                // float: "center",
+                marginRight: "290px",
+                float: "right",
               }}
             />
           </div>
@@ -150,7 +152,7 @@ export default function Home_page() {
         </div>
         <div className=" bg-[#F0F0F0] p-[5px]">
           <div className="text-center">
-            <h1>Our Special Dishes</h1>
+            <h1 className="mb-[20px] mt-[20px]">Our Special Dishes</h1>
             <h4>
               “Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,
               <br /> sed do eiusmod tempor.”
@@ -360,7 +362,7 @@ export default function Home_page() {
         <div>
           <div
             className="text-3xl font-bold"
-            style={{ marginLeft: "200px", marginTop: "80px" }}
+            style={{ marginLeft: "150px", marginTop: "80px" }}
           >
             <h1>Our Expert chef</h1>
             <p>
@@ -437,8 +439,7 @@ export default function Home_page() {
         <div className=" bg-[#F0F0F0] p-[20px] relative ">
           <div className="text-center text-2xl">
             <h1>
-              {" "}
-              <b className="text-2xl">Our Happy Customers</b>
+              <b className="text-2xl ">Our Happy Customers</b>
             </h1>
             <p>
               “Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,
@@ -474,14 +475,14 @@ export default function Home_page() {
             </span>
 
             <div className="absolute  ">
-              <p className="p-[75px]">
+              <p className="p-[85px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
-            <div className="text-center mx-auto mt-[100px] w-fit">
+            <div className="text-center mx-auto mt-[150px] w-fit">
               <h4>
                 <b>Ama Ampomah</b>
               </h4>

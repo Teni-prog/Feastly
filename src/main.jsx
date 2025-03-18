@@ -7,6 +7,7 @@ import "../src/Pages/MenuPage/menupage.css";
 import Cover_page from "./Pages/Cover_page/Cover_page";
 import Home_page from "./Pages/Cover_page/HomePage/homepage";
 import Menu from "./Pages/MenuPage/menupage";
+import Order from "./Pages/OrderPage/orderpage";
 // import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -17,6 +18,7 @@ root.render(
         <Route path="/" element={<Cover_page />} />
         <Route path="/home" element={<Home_page />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/order" element={<Order />} />
       </Routes>
     </Router>
   </React.StrictMode>
