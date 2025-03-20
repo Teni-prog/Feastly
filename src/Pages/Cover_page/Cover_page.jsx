@@ -89,19 +89,19 @@ export default function Cover_page() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
+            {/* <br /> */}
+            {/* <br /> */}
             {/* <br /> */}
             <div className=" bg-[#F0F0F0] p-[5px]">
               <div className="text-center">
-                <h1>Our Special Dishes</h1>
+                <h1 className="mt-[50px]">Our Special Dishes</h1>
                 <h4>
                   “Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
                   elit,
                   <br /> sed do eiusmod tempor.”
                 </h4>
               </div>
-              <div className="special">
+              <div className="special mb-[70px]">
                 <div className="dishes flex">
                   <img
                     src="/lumpia.jpg"
@@ -257,14 +257,14 @@ export default function Cover_page() {
                 </span>
 
                 <div className="absolute  ">
-                  <p className="p-[75px]">
+                  <p className="p-[89px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
                 </div>
-                <div className="text-center mx-auto mt-[130px] w-fit">
+                <div className="text-center mx-auto mt-[150px] w-fit">
                   <h4>
                     <b>Ama Ampomah</b>
                   </h4>

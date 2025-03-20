@@ -4,6 +4,8 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import toggleMenu from "./script";
 import { InputText } from "primereact/inputtext";
 import { useState } from "react";
+import List from "./Lists";
+import Allorders from "./allOrders";
 export default function Order() {
   // const [filteredData, setFilteredData] = useState([]);
   // const [globalFilter, setGlobalFilter] = useState("");
@@ -23,7 +25,7 @@ export default function Order() {
   // }, [globalFilter, data]);
   return (
     <>
-      <div className="flex justify-around">
+      <div className="flex justify-around mt-[20px]">
         <nav id="hamburger-nav">
           <div className="hamburger-menu">
             <div className="hamburger-icon" onClick={() => toggleMenu()}>
@@ -33,8 +35,8 @@ export default function Order() {
             </div>
             <div className="menu-links">
               <li>
-                <a href="#about" onClick={() => toggleMenu()}>
-                  About
+                <a href="#about" onClick={() => toggleMenu("/menu")}>
+                  Menu
                 </a>
               </li>
               <li>
@@ -74,6 +76,8 @@ export default function Order() {
           />
         </div>
       </div>
+      <Allorders />
+      <List />
     </>
   );
 }
