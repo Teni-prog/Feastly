@@ -35,13 +35,13 @@ export default function Order() {
             </div>
             <div className="menu-links">
               <li>
-                <a href="#about" onClick={() => toggleMenu("/menu")}>
+                <a href="/menu" onClick={() => toggleMenu("/menu")}>
                   Menu
                 </a>
               </li>
               <li>
-                <a href="#experience" onClick={() => toggleMenu()}>
-                  Experience
+                <a href="/home" onClick={() => toggleMenu("/home")}>
+                  Home
                 </a>
               </li>
               <li>
